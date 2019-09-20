@@ -32,7 +32,7 @@ public class SpringJmsProducer {
 			
 			public Message createMessage(Session session) throws JMSException {
 				// TODO Auto-generated method stub
-				return session.createTextMessage()msg;
+				return session.createTextMessage(msg);
 			}
 		});
 	}
